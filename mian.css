@@ -1,0 +1,72 @@
+@charset "UFT-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", serif;
+}
+
+body {
+    background-color: #BFBFBF;
+}
+
+header {
+    background-color: #4C5958;
+    color: #Fff;
+    padding: 16px;
+    display: flex;
+    text-align: uppercase;
+    justify-content: center;
+}
+
+form {
+    background-color: #8AA6A3;
+    padding: 24px;
+    text-align: center;
+    margin: 20px;
+    display: block;
+    border-radius: 5px;
+}
+
+input, button {
+    padding: 8px;
+    margin: 5px;
+}
+
+button {
+    background-color: #009432;
+    border: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff;
+    border-radius: 3px;
+}
+
+.excluir-tarefa {
+    background-color: red;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 5px;
+}
+
+ul li {
+    background-color: #8AA6A3;
+    border-radius: 5px;
+    margin-top: 5px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: #10403B;
+}
